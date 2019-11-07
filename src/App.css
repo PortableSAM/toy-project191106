@@ -3,11 +3,100 @@
 *::after {
   box-sizing: border-box;
 }
+
 .content-page {
+  background: #303952;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.home-body {
+  position: relative;
+  top: 10vh;
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
-  min-height: 100%;
-  border: 1px solid #d21e1e;
+  /*border: 1px solid #d21e1e;*/
+  background: #ced4d6;
+  width: 60%;
+  height: 100%;
+  border-radius: 2rem;
+}
+.banner-text hr {
+  border-top: 1px dotted black;
+  margin: 0 0 5px;
+}
+.home-body img {
+  height: 100px;
+  border-radius: 30em;
+  /*border: 1px solid #d21e1e;*/
+}
+.avatar-img {
+  padding-top: 10px;
+}
+
+.banner-text h1 {
+  margin: 30px 0 0px;
+}
+.banner-text p {
+  margin: 10px 0 10px;
+  font-size: 2rem;
+}
+
+.social-link {
+  padding: 15px;
+  margin: 20px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-link a {
+  color: #000000;
+  font-size: 3.5rem;
+}
+.social-link i {
+  padding: 0 10px 0 10px;
+}
+.social-link :hover {
+  color: #ff4b87;
+  transition: 0.8s;
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
 }

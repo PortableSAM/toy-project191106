@@ -8,7 +8,12 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
+/* 
+- React Router Dom v5 
+  Link 와 Route를 Router로 포장.
+- React MDL 사용
+  Layout은 MDL를 사용하였음.
+*/
 function App() {
   return (
     <Router>

@@ -3,9 +3,32 @@
 *::after {
   box-sizing: border-box;
 }
+.header-color {
+  background: #1488cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #2b32b2,
+    #1488cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2b32b2,
+    #1488cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .content-page {
-  background: #303952;
+  background: #1488cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2b32b2,
+    #1488cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2b32b2,
+    #1488cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   justify-content: center;
   min-height: 100%;
@@ -18,7 +41,7 @@
   flex-direction: column;
   text-align: center;
   /*border: 1px solid #d21e1e;*/
-  background: #ced4d6;
+  background: rgb(166, 201, 255);
   width: 60%;
   height: 100%;
   border-radius: 2rem;
@@ -58,7 +81,7 @@
   padding: 0 10px 0 10px;
 }
 .social-link :hover {
-  color: #ff4b87;
+  color: #6265ee;
   transition: 0.8s;
 }
 /* 

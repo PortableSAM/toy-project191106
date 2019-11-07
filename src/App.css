@@ -33,7 +33,7 @@
   justify-content: center;
   min-height: 100%;
 }
-
+/* Home JS CSS */
 .home-body {
   position: relative;
   top: 10vh;
@@ -84,6 +84,51 @@
   color: #6265ee;
   transition: 0.8s;
 }
+/* Home JS CSS */
+/* About JS CSS */
+.about_body {
+  background: lightgoldenrodyellow;
+  width: 90%;
+  height: 100%;
+  border-radius: 2em;
+  position: relative;
+  top: 10vh;
+}
+.about_left_col {
+  /*border-top: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left_float {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+}
+.about_left_col h2,
+h4,
+h5,
+p {
+  text-align: left;
+  padding: 25px;
+  margin: auto;
+}
+/*
+.about_right_col {
+  border-top: 2px solid blue;
+}
+*/
+.about_right_col h2 {
+  margin: auto;
+}
+.Edu_grid,
+.Edu_grid p,
+.Career_grid,
+.Career_grid p {
+  margin: auto;
+}
+
 /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
